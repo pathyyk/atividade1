@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+
+	color: white;
+	font-size: 40px;
+
+}
+
+.container{
+	max-width: 100%;
+	background-color:red;
+	height: 500px;
+	padding-top: 50px;
+	display: flex;
+}
+
+.card{
+	background-color: blue;
+	width: 100px;
+	height: 100px;
+	margin: 5%;
+}
+
+
+/*RESPONSIVO*/
+
+/*\* TELAS NO MAXIMO 600*/
+@media (max-width: 600px){
+
+
+	img{
+		display: none;
+	}
+
+	.container{
+		display: block;
+	}
+
+
+
+	.color{
+	background-color: green;
+
+	}
+}
+
+
+/*TELAS NO MAXIMO 300PX*/
+
+
+@media (max-width: 300px){
+	.container{
+		background-color: white;
+	}
+}

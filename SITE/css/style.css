@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	background-color: rgba(0,0,0,0.6);
+	height: 100px;
+	position: fixed;
+	z-index: 1;
+	width: 100%
+}
+
+header{
+	background-image: url("../img/danka-peter-321.jpg");
+	background-size:100%;
+    background-repeat: no-repeat;
+}
+
+.logo{
+	width: 200px;
+	margin-left: 200px
+	margin-top:20px;
+}
+.guia{
+	width: 100%;
+	opacity: 0.5;
+	z-index: -2;
+	position: absolute;
+}
+
+.slogan{
+	font-size: 70px;
+	margin-bottom: 400px;
+	margin-left: 500px;
+	color: white;
+}
+
+.btn{
+	color: white;
+	border-radius: 50px;
+	height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: 0;
+	padding-top: 10px;
+}
+
+.btn-cinza{
+	background-color: #ECF0F1;
+	width: 300px;
+	margin-right:10px;
+	margin-left: 400px;
+
+
+}
+
+.btn-branco{
+	background-color: rgba(0, 0, 0, 0);
+	border: 2px solid white;
+	width: 300px;
+
+
+/*/RESPONSIVO*/
+
+/*/TELA NO MAXIMO 600PX*/
+
+@media (max-widht: 600px)
+
+	img{
+		display: none;
+
+
+	}
+
+
+
